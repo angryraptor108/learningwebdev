@@ -4,24 +4,130 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/png" href="/Icon/favicon.png">
+    <link rel="icon" type="image/png" href="/Icon/favicon.png" />
     <title>My First Website</title>
   </head>
 
   <body>
+
+    <a href="page2.html" target="_blank">
+    <button style="font-size: 25px; background-color: grey; color:lightblue; border-radius: 25px;">click me</button>
+    </a>
+
+    <h3>Store Hours</h3>
+
+    <table border="1" style="background-color: black;">
+      <tr style="background-color: lightblue;">
+        <th width="100">Day</th>
+        <th width="100">Hours</th>
+      </tr>
+      <tr align="center" style="background-color: aliceblue;">
+        <td>Monday</td>
+        <td>9am - 5pm</td>
+      </tr>
+      <tr align="center" style="background-color: aliceblue;">
+        <td>Tuesday</td>
+        <td>9am - 5pm</td>
+      </tr>
+      <tr align="center" style="background-color: aliceblue;">
+        <td>Wednesday</td>
+        <td>9am - 5pm</td>
+      </tr>
+      <tr align="center" style="background-color: aliceblue;">
+        <td>Thursday</td>
+        <td>9am - 5pm</td>
+      </tr>
+      <tr align="center" style="background-color: aliceblue;">
+        <td>Friday</td>
+        <td>9am - 5pm</td>
+      </tr>
+      <tr align="center" style="background-color: aliceblue;">
+        <td>Saturday</td>
+        <td>10am - 3pm</td>
+      </tr>
+      <tr align="center" style="background-color: aliceblue;">
+        <td>Sunday</td>
+        <td>Closed</td>
+      </tr>
+    </table>
+
+    <br>
+
+    <h1><span style="background-color: tomato;">This is a span title</span></h1>
+    <h1><div style="background-color: cyan;">This is a div title</div></h1>
+
+    <p><span style="background-color: tomato;">This is a span setence.</span></p>
+    <p><div style="background-color: cyan;">This is a div sentence.</div></p>
+
+    <p>Lorem ipsum dolor sit amet, <span style="background-color: tomato;">consectetur adipisicing elit. Totam, est error. Voluptatibus minus neque atque ducimus laboriosam consequuntur repellat libero nesciunt, dicta magni corrupti praesentium dolorem enim, quas at nam. </span></p>
+    <p style="background-color: brown;">Lorem ipsum dolor sit amet, <div style="background-color: cyan">consectetur adipisicing elit. Totam, est error. Voluptatibus minus neque atque ducimus laboriosam consequuntur repellat libero nesciunt, dicta magni corrupti praesentium dolorem enim, quas at nam.</div></p>
+
+    <br /><br /><br />
+
+    <!--unordered list-->
+    <h4>Groccieries</h4>
+    <ul>
+      <li>Eggs</li>
+      <li>Milk</li>
+      <li>Bread</li>
+      <li>Butter</li>
+      <ul>
+        <li>Unsalted</li>
+        <li>Salted</li>
+      </ul>
+    </ul>
+
+    <!--To do list-->
+    <h4>To Do</h4>
+    <ol>
+      <li>Wash the car</li>
+      <li>Take out the trash</li>
+      <li>Do the laundry</li>
+      <li>Go to the bank</li>
+    </ol>
+
+    <!--Description list-->
+    <h4>Programming Abbreviations</h4>
+    <dl style="background-color: lightgreen; border: 2px dashed;">
+      <dt>HTML</dt>
+      <dd>Hyper Text Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+      <dt>JS</dt>
+      <dd>JavaScript</dd>
+    </dl>
+
+    <br /><br /><br />
+    <p>This is normal text</p>
+    <p>This is <b>bold</b> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <u>underlined</u> text</p>
+    <p>This is <big>big</big> text</p>
+    <p>This is <small>small</small> text</p>
+    <p>This is <sub>subscript</sub> text</p>
+    <p>This is <sup>superscript</sup> text</p>
+    <p>This is <tt>monospaced</tt> text</p>
+    <p>
+      This is <mark style="background-color: lightgreen">highlighted</mark> text
+    </p>
+
+    <br />
+    <br />
+
     <p>Some nice country music for you!</p>
     <audio controls>
-      <source src="country.mp3" type="audio/mpeg" />
+      <source src="country.mp3" type="audio/mpeg"/>
       Your browser does not support this audio file.
     </audio>
 
     <br />
     <hr />
 
-    <a href="https://www.google.com" target="_blank">
+    <a href="https://www.google.com" target="_blank" title="Which one shows up?">
       <img
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="Google Logo"
+        title="Google Logo!!!"
         width="500"
     /></a>
 
@@ -31,7 +137,7 @@
     <h1>HELLO SEEING IF THIS WORKS LMAO</h1>
 
     <video controls width="1000px">
-      <source src="movie.mp4" type="video/mp4" />
+      <source src="movie.mp4" type="video/mp4" title="a movie that does not work lol"/>
       Your browser does not support the video tag.
     </video>
   </body>
