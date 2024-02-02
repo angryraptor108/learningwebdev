@@ -10,9 +10,17 @@
 
   <body>
 
-    <a href="page2.html" target="_blank">
-    <button style="font-size: 25px; background-color: grey; color:lightblue; border-radius: 25px;">click me</button>
-    </a>
+
+    <button onclick="doSomething()" style="font-size: 25px; background-color: grey; color:lightblue; border-radius: 25px;">click me</button>
+    
+    <p id="greeting">Hello!</p>
+
+    <script>
+      function doSomething() {
+        alert("You clicked the button!");
+        document.getElementById("greeting").innerHTML = "Goodbye";
+      }
+    </script>
 
     <h3>Store Hours</h3>
 
