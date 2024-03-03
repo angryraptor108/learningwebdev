@@ -10,7 +10,9 @@
 
   <body>
 
+    <h1>This is an h1 heading!</h1>
 
+    <br><br><hr><br><br>
     <button onclick="doSomething()" style="font-size: 25px; background-color: grey; color:lightblue; border-radius: 25px;">Click me</button>
     
     <p id="greeting">NICE TO SEE YOU!</p>
@@ -61,10 +63,12 @@
 
     <br>
 
+    <!-- span and div stuff here-->
+
     <h1><span style="background-color: tomato;">This is a span title</span></h1>
     <h1><div style="background-color: cyan;">This is a div title</div></h1>
 
-    <p><span style="background-color: tomato;">This is a span setence.</span></p>
+    <p><span style="background-color: tomato;">This is a span sentence.</span></p>
     <p><div style="background-color: cyan;">This is a div sentence.</div></p>
 
     <p>Lorem ipsum dolor sit amet, <span style="background-color: tomato;">consectetur adipisicing elit. Totam, est error. Voluptatibus minus neque atque ducimus laboriosam consequuntur repellat libero nesciunt, dicta magni corrupti praesentium dolorem enim, quas at nam. </span></p>
@@ -105,11 +109,13 @@
       <dd>JavaScript</dd>
     </dl>
 
+<!--some different types of text formatting-->
     <br /><br /><br />
     <p>This is normal text</p>
     <p>This is <b>bold</b> text</p>
     <p>This is <i>italic</i> text</p>
     <p>This is <u>underlined</u> text</p>
+    <p>This is <del>deleted</del> text</p>
     <p>This is <big>big</big> text</p>
     <p>This is <small>small</small> text</p>
     <p>This is <sub>subscript</sub> text</p>
@@ -122,8 +128,10 @@
     <br />
     <br />
 
+
+    <!-- audio stuff here -->
     <p>Some nice country music for you!</p>
-    <audio controls>
+    <audio controls> <!-- controls attribute adds the audio player. Other controls include autoplay, loop, muted, etc -->
       <source src="country.mp3" type="audio/mpeg"/>
       Your browser does not support this audio file.
     </audio>
@@ -131,6 +139,7 @@
     <br />
     <hr />
 
+    <!-- Hyperlink with a self closing image tag -->
     <a href="https://www.google.com" target="_blank" title="Which one shows up?">
       <img
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
@@ -144,6 +153,9 @@
 
     <h1>HELLO SEEING IF THIS WORKS LMAO</h1>
 
+    <!--video stuff here, doesn't work because I am too lazy to upload a video file here-->
+    <br />
+    <p>Here is a video that does not work lol</p>
     <video controls width="1000px">
       <source src="movie.mp4" type="video/mp4" title="a movie that does not work lol"/>
       Your browser does not support the video tag.
