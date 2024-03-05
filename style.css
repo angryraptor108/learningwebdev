@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    font-family: verdana;
+}
+#p1{ /* to grab element by id */
+    color: red;
+}
+
